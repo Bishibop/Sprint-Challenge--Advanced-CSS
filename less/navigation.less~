@@ -6,7 +6,7 @@ nav {
 
 	padding: 15px 0;
 
-	background-color: @wild-sand;
+	background-color: @nav-bg;
 
 	h1 {
 		flex-basis: 100%;
@@ -25,6 +25,11 @@ nav {
 		color: black;
 
 		.hoverline();
+
+		@media @phone {
+			flex-basis: 15%;
+		}
 	}
+
 
 }
