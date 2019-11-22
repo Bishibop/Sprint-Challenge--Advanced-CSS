@@ -177,8 +177,8 @@ nav a {
   flex-basis: 10%;
   font-size: 1.6rem;
   text-align: center;
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 nav a:hover {
   text-decoration: underline;
@@ -237,6 +237,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 30%;
+  padding: 10px 15px;
+  background-color: #22283A;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+.home .walk .walk-text .btn:hover {
+  color: #22283A;
+  background-color: white;
 }
 .home .walk .walk-img {
   width: 46%;

@@ -2,11 +2,8 @@
 
 nav {
 
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	.flex-me(wrap, center);
 
-	margin: 40px 0;
 	padding: 15px 0;
 
 	background-color: @wild-sand;
@@ -25,11 +22,9 @@ nav {
 
 		font-size: 1.6rem;
 		text-align: center;
-		text-decoration: none;
 		color: black;
-		&:hover {
-			text-decoration: underline;
-		}
+
+		.hoverline();
 	}
 
 }
