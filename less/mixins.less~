@@ -23,4 +23,30 @@
 	text-align: center;
 	border-radius: 5px;
 
+	&:hover {
+		color: @btn-bg-color;
+		background-color: white;
+	}
+
+}
+
+.how-high(@jump-height, @jump-number: 3) {
+	animation-name: how-high;
+
+	animation-duration: 0.2s;
+	animation-iteration-count: @jump-number*2;
+	animation-direction: alternate;
+
+	@keyframes how-high {
+		from {
+			-webkit-transform:translateY(0px);
+			-ms-transform:translateY(0px);
+			transform:translateY(0px);
+		}
+		to {
+			-webkit-transform:translateY(-(@jump-height));
+			-ms-transform:translateY(-(@jump-height));
+			transform:translateY(-(@jump-height));
+		}
+	}
 }

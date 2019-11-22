@@ -188,6 +188,96 @@ nav a:hover {
     flex-basis: 18%;
   }
 }
+nav:hover :nth-child(2) {
+  animation-name: how-high;
+  animation-duration: 0.2s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+@keyframes how-high {
+  from {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+nav:hover :nth-child(3) {
+  animation-name: how-high;
+  animation-duration: 0.2s;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+}
+@keyframes how-high {
+  from {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+nav:hover :nth-child(4) {
+  animation-name: how-high;
+  animation-duration: 0.2s;
+  animation-iteration-count: 6;
+  animation-direction: alternate;
+}
+@keyframes how-high {
+  from {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+nav:hover :nth-child(5) {
+  animation-name: how-high;
+  animation-duration: 0.2s;
+  animation-iteration-count: 8;
+  animation-direction: alternate;
+}
+@keyframes how-high {
+  from {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+nav:hover :nth-child(6) {
+  animation-name: how-high;
+  animation-duration: 0.2s;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+}
+@keyframes how-high {
+  from {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

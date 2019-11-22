@@ -29,6 +29,25 @@ nav {
 		@media @phone {
 			flex-basis: 18%;
 		}
+
+	}
+
+	&:hover {
+		:nth-child(2) {
+			.how-high(@jump-height, 1);
+		}
+		:nth-child(3) {
+			.how-high(@jump-height, 2);
+		}
+		:nth-child(4) {
+			.how-high(@jump-height, 3);
+		}
+		:nth-child(5) {
+			.how-high(@jump-height, 4);
+		}
+		:nth-child(6) {
+			.how-high(@jump-height, 5);
+		}
 	}
 
 

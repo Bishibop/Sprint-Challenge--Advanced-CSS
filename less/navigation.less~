@@ -27,7 +27,16 @@ nav {
 		.hoverline();
 
 		@media @phone {
-			flex-basis: 15%;
+			flex-basis: 18%;
+		}
+
+	}
+
+	&:hover {
+		for (let i = 1; i < 4; i++) {
+			:nth-child(i+1) {
+				.how-high(@jump-height, i);
+			}
 		}
 	}
 
