@@ -2,6 +2,12 @@
 
 .home {
 
+  &:active {
+	nav a {
+		.how-high(20);
+	}
+  }
+
   .intro {
 
     img {
